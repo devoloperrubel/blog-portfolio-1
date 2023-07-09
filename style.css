@@ -1,0 +1,361 @@
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Secular+One&display=swap');
+
+/* root css start */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: inter;
+    font-weight: 700;
+}
+
+body{
+    font-family: inter;
+    font-size: 18px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+p{
+    color: #223140;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1px;
+    }
+    
+/* root css end  */
+
+
+.h-logo{
+    color: #1D1D1D;
+    text-align: center;
+    font-family: Secular One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.293px;
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 10px 27px;
+}
+
+li.btn.btn-get-started {
+    background-color: #1361F5;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+li.btn.btn-login {
+    color: #094BCA;
+}
+
+.main-header {
+    margin: 28px 0px;
+}
+
+
+/* herro section start */
+.herro .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TechVantage{
+color: #1D1D1D;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: -1px;
+margin-bottom: 36px;
+}
+.herro-text p{
+    margin-bottom: 45px;
+}
+
+.btn{
+    color: black;    
+    text-align: center;   
+    font-family: Inter;  
+    font-size: 16px;  
+    font-style: normal;
+    font-weight: 500;   
+    line-height: 24px; 
+    display: inline-block; 
+    padding: 10px 27px;
+    }
+
+a.btn.btn-one {
+    background-color: #1361F5;
+    border-radius: 5px;
+    color: white;
+}
+a.btn.btn-one:hover{
+    color: red;
+}
+
+
+a.btn.btn-tow {
+    border-radius: 5px;border:  1px solid #E0E0E0;
+}
+/* herro section end */
+
+/* box section start */
+.box-section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 87px 0px;
+}
+
+.increase h3 ,.increase-common h3 {
+    color: #223140;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    margin-right: 43px;
+    margin-left: 15px;
+}
+
+.box-p {
+    color: #535558;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 8px 0px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    margin-right: 43px;
+    margin-left: 15px;
+}
+
+.increase-common{
+border-radius: 5px;
+background: #FFF;
+box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+max-width: 220px;
+
+}
+img.increase-common-icon {
+    padding: 8px 8px;
+    background-color: rgba(236, 178, 45, 0.10);
+    border-radius: 50%;
+    margin: 7px 7px;
+}
+ /* box section end   */
+
+/* streamline section start */
+ /* with Join Thousands section this css  */
+.streamline { 
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+}
+
+.streamline-heading{
+    padding-bottom: 35px;
+}
+.streamline-p {
+    color: #223140;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1px;
+    margin-bottom: 90px;
+}
+/* streamline section end */
+
+/* fast functionality start  */
+/* the css cover fast second thard functionality section  */
+.fast-functionality .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.fast-heading {
+    color: #094BCA;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+}
+.second-heading{
+    color: #1D1D1D;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+}
+.fast-functionality-text p{
+    color: #223140;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1px;
+    margin: 35px 0px;
+}
+.fast-functionality-text a{
+    padding: 10px 27px;
+    background-color: #094BCA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #FFF;
+}
+.CallPageIntegrations{
+    padding: 47px 0px;
+}
+/* fast functionality end  */
+
+/* abc compuny box one start  */
+.abc-company .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.abc-box {
+    width: 378px;
+    box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.abc-box p {
+    margin-top: 50px;
+    padding: 30px;
+}
+.abc-box-img {
+    position: absolute;
+    text-align: center;
+    top: -50px;
+    transform: translateX(-50%);
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.abc-box h1 {
+    color: #D9D9D9;
+    margin-bottom: 35px;
+}
+
+.abc-box h2 {
+    padding-bottom: 49px;
+}
+/* abc compuny box one end  */
+
+/* number section start  */
+
+.number-section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+}
+.fast-number {
+    margin: 90px 0px;
+}
+
+.fast-number h1 {
+    color: #094BCA;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+}
+
+.fast-number p {
+    color: #223140;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1px;
+}
+/* number section end  */
+
+/* steam-btn design css start */
+.sream-btn p {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 10px 27px;
+    background-color: #1361F5;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: -30px;
+    margin-bottom: 70px;
+}
+/* steam-btn design css end  */
+
+.container h1{
+color: #1D1D1D;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: -1px;
+margin: 90px auto;
+}
