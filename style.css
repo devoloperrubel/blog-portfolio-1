@@ -369,10 +369,10 @@ margin: 90px auto;
     align-items: center;
     grid-gap: 20px;
     overflow: hidden;
-    
+    padding-bottom: 60px
 }
 .resource-box {
-    box-shadow: 1px 2px 15px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -439,3 +439,4 @@ p.resource-box-p-tow {}
     padding: 20px;
     
 }
+/* resource-blog end */
