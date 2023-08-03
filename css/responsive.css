@@ -1,0 +1,80 @@
+/* mobile responsive code  */
+@media only screen and (min-width:200px)and (max-width:420px){
+    
+    .main-header {
+        margin: 0px 0px;
+        
+    }
+    .main-header .container {
+        align-items: baseline;
+    }
+    .menu{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+        padding-right: 10px;
+        font-size: 25px;
+    }
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        background-color: #6b98eb;
+    }
+    .herro{
+        display: none;
+    }
+    .herro-mobile{
+        display: block;
+    }
+
+    .herro-photo-mobile img {
+        width: 100%;
+        height: auto;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: inter;
+        text-align: center;
+        font-size: 23px;
+        padding: 5px;
+        font-weight: 700;
+    }
+
+    .herro-text-mobile p {
+        text-align: center;
+        font-size: 16px;
+        line-height: 26px;
+        padding: 0px 08px;
+    }
+
+    .mobilebtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .mobilebtn>a {
+        font-size: 15px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        background-color: #1361F5;
+        color: white;
+        margin: 10px 0px;
+        border: 1px solid #1361F5 ;
+    }
+    .mobilebtn>.btn-tow {
+        font-size: 15px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        background-color: white;
+        color: black;
+        margin: 10px 0px;
+        border: 1px solid black;
+    }
+
+
+
+}

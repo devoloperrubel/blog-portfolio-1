@@ -35,6 +35,14 @@ p{
     
 /* root css end  */
 
+/* Mobile layout css  */
+.herro-mobile{
+    display: none;
+}
+.fa-bars{
+    display: none;
+}
+/* Mobile layout css  */
 
 .h-logo{
     color: #1D1D1D;
@@ -82,6 +90,9 @@ li.btn.btn-login {
 
 
 /* herro section start */
+
+
+
 .herro .container{
     display: flex;
     justify-content: space-between;
